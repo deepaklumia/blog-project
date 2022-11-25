@@ -1,0 +1,30 @@
+{
+  "name": "blog-project",
+  "version": "1.0.0",
+  "description": "Repository for backend cohort - Lithium",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepaklumia/blog-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepaklumia/blog-project/issues"
+  },
+  "homepage": "https://github.com/deepaklumia/blog-project#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "email-validator": "^2.0.4",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20"
+  }
+}
